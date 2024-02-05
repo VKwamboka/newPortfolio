@@ -1,0 +1,17 @@
+.navbar-collapse{
+    width: 100%;
+}
+#home{
+    background: url(../../assets/images/bg-header.png) left top no-repeat;
+}
+.background-div{
+    background-image: url(../../assets/images/bg-header2.png); 
+  background-size: cover; /* Cover the entire area of the div */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; 
+  margin-bottom: 6rem;
+}
+.typed-cursor {
+    font-size: 30px;
+    color: var(--dark);
+}

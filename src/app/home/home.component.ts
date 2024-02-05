@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener} from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  // isScrolled = false;
+  // @HostListener('window:scroll',[])
+  // onScroll():void {
+  //   if(window.scrollY > 50){
+  //     this.isScrolled = true;
+  //   }else{
+  //     this.isScrolled = false;
+  //   }
+  // }
+
+  isMenuCollapsed = true;
 }
