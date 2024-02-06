@@ -7,15 +7,12 @@ import { Component, HostListener} from '@angular/core';
 })
 export class HomeComponent {
 
-  // isScrolled = false;
-  // @HostListener('window:scroll',[])
-  // onScroll():void {
-  //   if(window.scrollY > 50){
-  //     this.isScrolled = true;
-  //   }else{
-  //     this.isScrolled = false;
-  //   }
-  // }
+  isNavbarVisible = false;
+
+  @HostListener('window:scroll', [])
+  onScroll(): void {
+    this.isNavbarVisible = (window.scrollY > 50);
+  }
 
   isMenuCollapsed = true;
 }
