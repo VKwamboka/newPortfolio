@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit{
 
   isMenuCollapsed = true;
 
-  words: string[] = ['web developer', 'app developer'];
+  words: string[] = ['Web Designer', 'Web Developer', 'Front End Developer', 'Back End Developer'];
   wordIndex: number = 0;
   letterIndex: number = 0;
   isDeleting: boolean = false;
