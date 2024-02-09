@@ -15,10 +15,46 @@ nav {
   .hidden {
     top: -60px; /* Push the navbar out of the viewport */
   }
+  h3, .h3 {
+	font-size: calc(1.3rem + .6vw);
+}
+  @media (min-width: 1200px) {
+    .display-3 {
+        font-size: 4rem;
+    }
+}
+.display-3 {
+	font-size: calc(1.525rem + 3.3vw);
+	font-weight: 700;
+	line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    h1, .h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+/* header */
 
 #home{
     background: url(../../assets/images/bg-header.png) left top no-repeat;
 }
+.typed-cursor {
+    font-size: 30px;
+    color: var(--dark);
+}
+h2, .h2 {
+	font-size: calc(1.325rem + .9vw);
+}
+h1, .h1 {
+	font-size: calc(1.375rem + 1.5vw);
+}
+.mb-3 {
+	margin-bottom: 1rem !important;
+}
+
 .background-div{
     background-image: url(../../assets/images/bg-header2.png); 
   background-size: cover; /* Cover the entire area of the div */
@@ -30,6 +66,28 @@ nav {
     font-size: 30px;
     color: var(--dark);
 }
+.btn-square, .btn-sm-square, .btn-lg-square {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: normal;
+}
+.btn-lg-square {
+	width: 48px;
+	height: 48px;
+}
+.btn {
+	font-weight: 500;
+	transition: .5s;
+}
+/* .back-to-top {
+	position: fixed;
+	display: none;
+	right: 45px;
+	bottom: 45px;
+	z-index: 99;
+} */
 /*** Skills ***/
 #skill .progress {
     height: 5px;
@@ -238,4 +296,17 @@ nav {
 
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
+}
+
+
+/* media queries */
+@media (min-width: 1200px) {
+    h3, .h3 {
+        font-size: 1.75rem;
+    }
+}
+@media (min-width: 1200px) {
+    h2, .h2 {
+        font-size: 2rem;
+    }    
 }
