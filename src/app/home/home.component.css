@@ -41,13 +41,7 @@ nav {
 #home{
     background: url(../../assets/images/bg-header.png) left top no-repeat;
 }
-.main{
-    /* padding-top: 4rem; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
- 
-}
+
 .firstMain{
     padding-top: 4rem;
     height: 65vh !important;
@@ -55,6 +49,7 @@ nav {
 }
 .imageMain{
     height: 100vh !important;
+    padding-top: 8rem;
 }
 .imageMain img{
     height: 100%;
