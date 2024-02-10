@@ -75,7 +75,7 @@ h1, .h1 {
 }
 
 .background-div{
-    background-image: url(../../assets/images/bg-header2.png); 
+    /* background-image: url(../../assets/images/bg-header2.png);  */
   background-size: cover; /* Cover the entire area of the div */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; 
