@@ -42,11 +42,19 @@ nav {
     background: url(../../assets/images/bg-header.png) left top no-repeat;
 }
 .main{
-    padding-top: 4.5rem;
+    /* padding-top: 4rem; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
  
 }
+.firstMain{
+    padding-top: 4rem;
+    height: 65vh !important;
+
+}
 .imageMain{
-    height: 88vh !important;
+    height: 100vh !important;
 }
 .imageMain img{
     height: 100%;
