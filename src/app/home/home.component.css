@@ -41,6 +41,16 @@ nav {
 #home{
     background: url(../../assets/images/bg-header.png) left top no-repeat;
 }
+.main{
+    padding-top: 4.5rem;
+ 
+}
+.imageMain{
+    height: 88vh !important;
+}
+.imageMain img{
+    height: 100%;
+}
 .typed-cursor {
     font-size: 30px;
     color: var(--dark);
